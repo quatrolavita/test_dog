@@ -1,0 +1,134 @@
+@import 'reset.scss';
+
+
+.container {
+  max-width: 1020px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.first-screen {
+  height: 100vh;
+  background: url(../img/duotone.png) no-repeat;
+  background-size: cover;
+  padding-top: 26px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 126px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+
+  &__logo-wrap {
+    display: flex;
+  }
+
+  &__logo {
+    margin-right: 10px;
+  }
+
+  &__company-name {
+    padding: 10px 0px 6px 0px;
+  }
+
+  &__info-wrap {
+    display: flex;
+
+  }
+
+  &__contact-info {
+    display: flex;
+    margin-right: 30px;
+
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-right: 10px;
+  }
+
+  &__text {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    color: white;
+    white-space: nowrap;
+  }
+
+  &__button-link {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    color: white;
+    background-color: #F2726F;
+    padding: 9px 35px;
+    text-decoration: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: #ffffff;
+      color: #F2726F;
+      transition: .3s;
+    }
+  }
+
+  &__nav {
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  &__nav-list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__nav-link {
+    display: inline-block;
+    padding: 19px 0;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: black;
+
+  }
+
+  &__title-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__title {
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 900;
+    color: white;
+    max-width: 583px;
+    margin-bottom: 48px;
+  }
+
+  &__button {
+    display: inline-block;
+  }
+
+
+
+
+}
