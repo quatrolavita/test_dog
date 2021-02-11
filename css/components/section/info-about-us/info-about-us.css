@@ -1,0 +1,59 @@
+.info-about-us {
+  padding-top: 76px;
+  padding-bottom: 122px; }
+  .info-about-us__container {
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column; }
+  .info-about-us__wrap {
+    background-color: #fff; }
+    .info-about-us__wrap:first-child {
+      flex-direction: column;
+      background-color: #5D62B5;
+      border-radius: 40px;
+      width: 100%;
+      padding: 45px 89px 15px 85px;
+      margin-bottom: 110px; }
+  .info-about-us__description {
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    margin-bottom: 13px; }
+  .info-about-us__img {
+    width: 100%;
+    border-radius: 40px; }
+  .info-about-us__service-cards {
+    display: flex;
+    margin-right: -12px; }
+    .info-about-us__service-cards .card__icon {
+      margin-right: 23px; }
+  @media (max-width: 992px) {
+    .info-about-us {
+      margin: 0 auto; }
+      .info-about-us__wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .info-about-us__wrap:first-child {
+          padding-left: 10px;
+          padding-right: 10px;
+          align-items: center; }
+      .info-about-us .title {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center; }
+      .info-about-us__service-cards {
+        flex-direction: column;
+        align-items: center; }
+      .info-about-us .card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center; }
+        .info-about-us .card__icon {
+          margin-right: 0; }
+      .info-about-us .subtitle {
+        justify-content: center; } }

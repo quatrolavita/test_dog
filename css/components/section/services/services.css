@@ -1,0 +1,28 @@
+.services {
+  padding-top: 110px;
+  padding-bottom: 122px; }
+  .services__container {
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column; }
+    .services__container .card__icon {
+      margin-bottom: 33px; }
+  .services__title {
+    margin-bottom: 78px; }
+  .services__service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -12px -12px 66px -12px; }
+  @media (max-width: 992px) {
+    .services__container {
+      align-items: center; }
+    .services .title {
+      text-align: center;
+      margin: 0 auto; }
+    .services__service-cards {
+      justify-content: space-between;
+      align-items: center; } }

@@ -1,0 +1,37 @@
+.interruption {
+  background-color: #29C3BE;
+  position: relative;
+  padding-top: 112px;
+  padding-bottom: 169px; }
+  .interruption__container {
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: flex-end; }
+  .interruption__dog-img {
+    position: absolute;
+    max-width: 744px;
+    bottom: 0;
+    left: 0; }
+  .interruption:after {
+    content: '';
+    background: url("/img/ball.svg");
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    top: 55px;
+    right: 43px; }
+  @media (max-width: 1200px) {
+    .interruption:after {
+      display: none; }
+    .interruption__container {
+      justify-content: center; }
+    .interruption__content {
+      text-align: center; }
+    .interruption__dog-img {
+      display: none; }
+    .interruption__ball-img {
+      display: none; } }

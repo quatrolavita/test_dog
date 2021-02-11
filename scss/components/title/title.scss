@@ -1,0 +1,19 @@
+.title {
+    max-width: 583px;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 36px;
+    &--black {
+        color: #000;
+    }
+    &--size {
+        max-width: 411px;
+    }
+
+    &--ident {
+        margin-bottom: 68px;
+    }
+
+}

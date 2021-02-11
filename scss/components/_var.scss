@@ -1,0 +1,30 @@
+$screen-s: 576px;
+$screen-m: 768px;
+$screen-l: 992px;
+$screen-xl: 1200px;
+
+@mixin container {
+  max-width: 1080px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@mixin small-text {
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+@mixin contact-info-subtitle {
+  max-width: 200px;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  font-weight: 400;
+  text-transform: capitalize;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}

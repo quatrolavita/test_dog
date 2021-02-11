@@ -1,0 +1,51 @@
+@import "scss/components/var";
+
+.interruption {
+    background-color: #29C3BE;
+    position: relative;
+    padding-top: 112px;
+    padding-bottom: 169px;
+    &__container {
+        @include container;
+        justify-content: flex-end;
+    }
+
+    &__dog-img {
+        position: absolute;
+        max-width: 744px;
+        bottom: 0;
+        left: 0;
+
+    }
+
+    &:after {
+        content: '';
+        background: url("/img/ball.svg");
+        position: absolute;
+        width: 136px;
+        height: 136px;
+        top: 55px;
+        right: 43px;
+    }
+
+    @media (max-width: $screen-xl) {
+
+        &:after {
+            display: none;
+        }
+
+        &__container {
+            justify-content: center;
+        }
+        &__content {
+            text-align: center;
+        }
+        &__dog-img {
+            display: none;
+        }
+        &__ball-img {
+            display: none;
+        }
+
+    }
+}

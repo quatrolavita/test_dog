@@ -1,0 +1,17 @@
+.button {
+  display: inline-block; }
+  .button__link {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    color: white;
+    background-color: #F2726F;
+    padding: 9px 35px;
+    text-decoration: none;
+    border-radius: 8px;
+    text-transform: uppercase; }
+    .button__link:hover {
+      background-color: #ffffff;
+      color: #F2726F;
+      transition: .3s; }

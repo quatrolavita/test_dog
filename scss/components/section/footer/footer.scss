@@ -1,0 +1,94 @@
+@import "scss/components/var";
+
+.footer {
+    padding-top: 78px;
+    padding-bottom: 158px;
+
+    &__container {
+        @include container;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__about-company {
+        display: flex;
+        flex-direction: column;
+        margin-right: 124px;
+        max-width: 235px;
+
+        .logo {
+            margin-bottom: 23px;
+        }
+
+        .text {
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 33px;
+        }
+    }
+
+    &__social-media {
+        display: flex;
+        :last-child {
+            margin-right: 0;
+        }
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        &__item {
+            margin-right: 70px;
+        }
+        &__list {
+            flex-wrap: wrap;
+            max-width: 260px;
+        }
+    }
+
+
+    &__contact-info {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        max-width: 235px;
+    }
+
+    &__title {
+        color: #000;
+        font-size: 14px;
+        line-height: 22px;
+        text-space: 0.15px;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+    }
+
+    @media (max-width: $screen-l) {
+        padding-top: 40px;
+        padding-bottom: 20px;
+
+        &__container {
+            justify-content: center;
+        }
+        &__about-company {
+            margin-right: 70px;
+            margin-bottom: 15px;
+            align-items: center;
+            text-align: center;
+        }
+        &__contact-info {
+            .footer__title {
+                display: none;
+            }}
+        .nav {
+            display: none;
+        }
+    }
+    @media (max-width: $screen-s) {
+        &__about-company {
+            margin-right: 0px;
+        }
+
+    }
+}

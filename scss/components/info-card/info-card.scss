@@ -1,0 +1,21 @@
+@import "scss/components/var";
+
+.info-card {
+  display: flex;
+  margin-right: 30px;
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-right: 10px;
+  }
+
+  &__text-item {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    color: white;
+    white-space: nowrap;
+  }
+}
