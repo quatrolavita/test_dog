@@ -1,0 +1,41 @@
+@import "scss/components/var";
+
+.services {
+    padding-top: 110px;
+    padding-bottom: 122px;
+    &__container {
+        @include container;
+        flex-direction: column;
+
+        .card__icon {
+            margin-bottom: 33px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 78px;
+    }
+
+    &__service-cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -12px -12px 66px -12px;
+    }
+
+    @media (max-width: $screen-l) {
+
+        &__container {
+            align-items: center;
+        }
+
+        .title {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        &__service-cards {
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}

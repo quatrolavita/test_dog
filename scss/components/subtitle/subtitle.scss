@@ -1,0 +1,63 @@
+@import "scss/components/var";
+
+.subtitle {
+
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2.5px;
+  color: #F5F5F5;
+  position: relative;
+  padding-left: 33px;
+  margin-bottom: 33px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background: url('/img/rhombus_icon.svg') center;
+    width: 17px;
+    height: 16px;
+    margin-right: 16px;
+
+  }
+  &--violet {
+    color: #5D62B5;
+
+    &:before {
+      background: url('/img/rhombus_icon_violet.svg') center;
+
+    }
+  }
+
+  &--footer-place {
+    @include contact-info-subtitle;
+    &:before {
+      background: url('/img/place.svg');
+    }
+  }
+
+  &--footer-phone {
+    @include contact-info-subtitle;
+    &:before {
+      background: url('/img/smartphone.svg');
+    }
+  }
+
+  &--footer-mail {
+    @include contact-info-subtitle;
+    &:before {
+      background: url('/img/mail.svg');
+    }
+  }
+
+  &--footer-time {
+    @include contact-info-subtitle;
+    &:before {
+      background: url('/img/timer.svg');
+    }
+  }
+}

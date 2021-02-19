@@ -1,0 +1,14 @@
+.info-card {
+  display: flex;
+  margin-right: 30px; }
+  .info-card__icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-right: 10px; }
+  .info-card__text-item {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    color: white;
+    white-space: nowrap; }

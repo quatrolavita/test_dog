@@ -1,0 +1,25 @@
+@import "scss/components/var";
+
+.text {
+    @include small-text;
+
+    &--gray {
+        color: #F5F5F5;
+    }
+
+    &--black {
+        color: #000;
+    }
+
+    &--dark-gray {
+        color: #4B4B4B;
+    }
+
+    &--form-behavior {
+        font-size: 96px;
+        line-height: 56px;
+        font-weight: 900;
+        margin-bottom: 46px;
+    }
+
+}

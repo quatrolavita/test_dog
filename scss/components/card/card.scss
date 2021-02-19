@@ -1,0 +1,53 @@
+@import "scss/components/var";
+
+.card {
+
+    display: flex;
+    max-width: 324px;
+    margin: 12px;
+    padding: 6px;
+    border-radius: 20px;
+
+
+    &:hover {
+        box-shadow: 0 8px 16px rgba(38, 38, 38, 0.24);
+    }
+
+    &__icon {
+        max-width: 63px;
+        max-height: 63px;
+
+    }
+
+    &__title {
+        font-size: 19px;
+        font-weight: 900;
+        line-height: 26px;
+        color: #F2726F;
+        margin-bottom: 20px;
+        
+    }
+
+    &__description {
+        @include small-text;
+
+        color: #000;
+        max-width: 235px;
+
+    }
+
+    &--column-direction {
+        flex-direction: column;
+    }
+    &--align-center {
+        text-align: center;
+        align-items: center;
+    }
+
+    &--size-big {
+        padding: 50px 44px 50px 43px;
+    }
+
+
+
+}

@@ -1,0 +1,13 @@
+.icon-with-subtitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px; }
+  .icon-with-subtitle__subtitle {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2.5px;
+    color: #F5F5F5; }
+    .icon-with-subtitle__subtitle--violet {
+      color: #5D62B5; }

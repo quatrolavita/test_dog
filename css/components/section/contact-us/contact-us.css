@@ -1,0 +1,33 @@
+.contact-us {
+  background: url("../../../../img/background_form.png") no-repeat;
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 210px; }
+  .contact-us__container {
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center; }
+  .contact-us__text-box {
+    text-align: center; }
+    .contact-us__text-box .title {
+      margin-bottom: 46px; }
+  @media (max-width: 992px) {
+    .contact-us__container {
+      flex-direction: column; }
+    .contact-us .contact-form {
+      margin-right: 0px;
+      margin-bottom: 40px;
+      padding: 45px 45px; }
+      .contact-us .contact-form__input-text {
+        width: 100%; }
+      .contact-us .contact-form .title {
+        text-align: center; }
+      .contact-us .contact-form .button {
+        margin: 0 auto; } }
+  @media (max-width: 576px) {
+    .contact-us .contact-form {
+      padding: 25px 15px; } }

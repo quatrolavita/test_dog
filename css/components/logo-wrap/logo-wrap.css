@@ -1,0 +1,8 @@
+.logo-wrap {
+  display: flex; }
+  .logo-wrap__logo {
+    margin-right: 10px;
+    width: 40px; }
+  .logo-wrap__company-name {
+    padding: 10px 0 6px 0;
+    width: 123px; }

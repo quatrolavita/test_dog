@@ -12,64 +12,290 @@
 <body>
   <main class="main">
     <section class="first-screen">
-      <div class="first-screen__container container">
-        <header class="first-screen__header">
-          <div class="first-screen__info">
-            <div class="first-screen__logo-wrap">
-              <img src="./img/logo.svg" alt="Logo" class="first-screen__logo">
-              <img src="./img/comapany_name.png" class="first-screen__company-name">
+      <div class="first-screen__container">
+        <header class="header">
+          <div class="header__wrap">
+            <div class="logo">
+              <img src="./img/logo.svg" alt="Logo" class="logo__img">
+              <img src="./img/company_name.svg" class="logo__img">
             </div>
-            <div class="first-screen__info-wrap">
-              <div class="first-screen__contact-info">
-                <img src="./img/clock.png" alt="Clok-icon" class="first-screen__icon">
-                <div class="first-screen__text-wrap">
-                  <p class="first-screen__text">BOARDING HOURS</p>
-                  <p class="first-screen__text">Mon - Sat: 7:00 am - 6:00 pm</p>
+            <div class="header__contact-info">
+              <div class="info-card">
+                <img src="./img/clock.svg" alt="Clok-icon" class="info-card__icon">
+                <div class="info-card__text-wrap">
+                  <p class="info-card__text-item">BOARDING HOURS</p>
+                  <p class="info-card__text-item">Mon - Sat: 7:00 am - 6:00 pm</p>
                 </div>
               </div>
-                <div class="first-screen__contact-info">
-                  <img src="./img/phone.png" alt="Phone-icon" class="first-screen__icon">
-                  <div class="first-screen__text-wrap">
-                    <p class="first-screen__text">CALL US</p>
-                    <p class="first-screen__text">(555) Pup-Cares</p>
+              <div class="info-card">
+                  <img src="./img/phone.svg" alt="Phone-icon" class="info-card__icon">
+                  <div class="info-card__text-wrap">
+                    <p class="info-card__text-item">CALL US</p>
+                    <p class="info-card__text-item">(555) Pup-Cares</p>
                   </div>
               </div>
-              <button type="button" name="button" class="first-screen__button">
-                <a href="" class="first-screen__button-link">Make an apointment</a>
+              <button type="button" name="button" class="button">
+                <a href="" class="button__link">Make an appointment</a>
               </button>
             </div>
+            <div class="burger">
+              <span class="burger__item"></span>
+            </div>
           </div>
-            <nav class="first-screen__nav">
-              <ul class="first-screen__nav-list">
-                <li class="first-screen__nav-item">
-                  <a class="first-screen__nav-link" href="#">Services</a>
+          <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Services</a>
                 </li>
-                <li class="first-screen__nav-item">
-                  <a class="first-screen__nav-link" href="#">Specials</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Specials</a>
                 </li>
-                <li class="first-screen__nav-item">
-                  <a class="first-screen__nav-link" href="#">Facilities</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Facilities</a>
                 </li>
-                <li class="first-screen__nav-item">
-                  <a class="first-screen__nav-link" href="#">Reviews</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Reviews</a>
                 </li>
-                <li class="first-screen__nav-item">
-                  <a class="first-screen__nav-link" href="#">Shop</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Shop</a>
                 </li>
-                <li class="first-screen__nav-item">
-                  <a class="first-screen__nav-link" href="#">About</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">About</a>
                 </li>
               </ul>
             </nav>
         </header>
         <div class="first-screen__title-wrap">
-          <h1 class="first-screen__title">Premier dog boarding, daycare & day spa</h1>
+          <h1 class="title">Premier dog boarding, daycare & day spa</h1>
           <button type="button" name="button" class="first-screen__button">
-            <a href="" class="first-screen__button-link">Make an apointment</a>
+            <a href="" class="button__link">Make an apointment</a>
           </button>
         </div>
       </div>
     </section>
+    <section class="info-about-us">
+      <div class="info-about-us__container ">
+        <div class="info-about-us__wrap">
+            <p class="subtitle">Who we are</p>
+            <h2 class="title">Nemo enim ipsam voluptatem quia voluptas in proident</h2>
+            <p class="info-about-us__description">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+            nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+            nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+          <img class="info-about-us__img" src="./img/dog_eyes.svg" alt="Dog eyes">
+        </div>
+        <div class="info-about-us__wrap">
+          <p class="subtitle subtitle--violet">Who we are</p>
+          <h2 class="title title--black">Nemo enim ipsam voluptatem quia voluptas in proident</h2>
+          <div class="info-about-us__service-cards">
+            <div class="card">
+              <img class="card__icon" src="./img/dog_love_24x.svg" alt="Dogs love">
+              <div class="card__description-wrap">
+                <h6 class="card__title">24/7 Love & Care</h6>
+                <p class="card__description">At vero eos et accusamus et iusto odio
+                  dignissimos ducimus qui blanditiis praesentium corrupti quos.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card__icon" src="./img/dog_vet_24x.svg" alt="Dogs love">
+              <div class="card__description-wrap">
+                <h6 class="card__title">On-site Veterinarian</h6>
+                <p class="card__description">Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                                            sed quia non numquam eius modi tempora incidunt.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card__icon" src="./img/dog_stream_24x.svg" alt="Dogs love">
+              <div class="card__description-wrap">
+                <h6 class="card__title">Live-stream Cameras</h6>
+                <p class="card__description">Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                            esse quam nihil molestiae consequatur illum.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="interruption">
+      <div class="interruption__container">
+        <img class="interruption__dog-img" src="./img/dog.svg" alt="">
+        <div class="interruption__content">
+          <h2 class="title title--size title--ident">Nemo enim ipsam voluptatem quia voluptas in proident</h2>
+          <button class="button">
+            <a class="button__link" href="#">Make an apointment</a>
+          </button>
+        </div>
+<!--        <img class="interruption__ball-img" src="./img/ball.svg" alt="">-->
+
+      </div>
+    </section>
+    <section class="services">
+      <div class="services__container">
+        <p class="subtitle subtitle--violet">Our services</p>
+        <h2 class="title title--black">Nemo enim ipsam voluptatem quia voluptas in proident</h2>
+        <div class="services__service-cards">
+          <div class="card card--column-direction
+                      card--align-center card--size-big">
+            <img class="card__icon" src="./img/bed.svg" alt="Dogs love">
+            <h6 class="card__title">Pet Boarding (No Cages)</h6>
+            <p class="card__description">At vero eos et accusamus et iusto odio dignissimos ducimus
+                qui blanditiis praesentium corrupti quos dolores et quas.</p>
+          </div>
+          <div class="card card--column-direction
+                      card--align-center card--size-big">
+            <img class="card__icon" src="./img/dog_daycare.svg" alt="Dogs love">
+            <h6 class="card__title">Pet Daycare</h6>
+            <p class="card__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium corrupti quos dolores et quas.</p>
+          </div>
+          <div class="card card--column-direction
+                      card--align-center card--size-big">
+            <img class="card__icon" src="./img/dog_grooming.svg" alt="Dogs love">
+            <h6 class="card__title">Pet Day Spa & Grooming</h6>
+            <p class="card__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium corrupti quos dolores et quas.</p>
+          </div>
+          <div class="card card--column-direction
+                      card--align-center card--size-big">
+            <img class="card__icon" src="./img/dog_food.svg" alt="Dogs love">
+            <h6 class="card__title">Custom Meal Plans</h6>
+            <p class="card__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium corrupti quos dolores et quas.</p>
+          </div>
+          <div class="card card--column-direction
+                      card--size-big card--align-center">
+            <img class="card__icon" src="./img/dog_cup.svg" alt="Dogs love">
+            <h6 class="card__title">Pet Training</h6>
+            <p class="card__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium corrupti quos dolores et quas.</p>
+          </div>
+          <div class="card card--column-direction
+                      card--size-big card--align-center">
+            <img class="card__icon" src="./img/dog_medal.svg" alt="Dogs love">
+            <h6 class="card__title">Shop Our Store!</h6>
+            <p class="card__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium corrupti quos dolores et quas.</p>
+          </div>
+        </div>
+        <button class="button">
+          <a class="button__link" href="#">Learn more</a>
+        </button>
+
+      </div>
+    </section>
+    <section class="contact-us">
+      <div class="contact-us__container">
+        <form class="contact-form" action="" method="post" autocomplete="off">
+          <h2 class="title">Make an appointment</h2>
+            <label class="contact-form__label" for="name">Name</label>
+            <input class="contact-form__input-text" placeholder="Name" name="name" type="text" id="name">
+            <label class="contact-form__label" for="email">Email</label>
+            <input class="contact-form__input-text" placeholder="Email" name="email" type="email" id="email">
+            <label class="contact-form__label" for="phone">Phone Number</label>
+            <input class="contact-form__input-text" placeholder="Phone Number" name="phone" type="tel" id="phone">
+            <label class="contact-form__label" for="service">Select Service</label>
+            <input class="contact-form__input-text" placeholder="Select Service" name="service" type="text" id="service">
+            <label class="contact-form__label" for="textarea">Tell us about your puppers include his/her name</label>
+            <input class="contact-form__input-text-area" placeholder="Tell us about your puppers include his/her name" name="textarea" type="text" id="textarea">
+          <button type="submit" name="button" class="button">
+            <a href="" class="button__link">Make an appointment</a>
+          </button>
+        </form>
+        <div class="contact-us__text-box">
+          <h2 class="title">Maxime placeat facere possimus omnis </h2>
+          <p class="text text--form-behavior">5,700+</p>
+          <p class="text">customers served</p>
+        </div>
+      </div>
+    </section>
+    <section class="achievement">
+      <div class="achievement__container">
+        <div class="achievement__description">
+         <p class="subtitle">Our impact</p>
+          <h3 class="title">Nemo enim ipsam voluptatem quia voluptas</h3>
+        </div>
+        <img src="./img/lying_dog.png" alt="Lying dog" class="achievement__img">
+        <div class="achievement__info-cards">
+          <div class="card">
+            <img class="card__icon" src="./img/duck.svg" alt="Dogs love">
+            <div class="card__description-wrap">
+              <h6 class="card__title">3,700</h6>
+              <p class="text">puppy baths</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card__icon" src="./img/house.png" alt="Dogs love">
+            <div class="card__description-wrap">
+              <h6 class="card__title">4,500</h6>
+              <p class="text">dogs boarded</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card__icon" src="./img/leash.svg" alt="Dogs love">
+            <div class="card__description-wrap">
+              <h6 class="card__title">2,900</h6>
+              <p class="text">pups trained</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card__icon" src="./img/milk.svg" alt="Dogs love">
+            <div class="card__description-wrap">
+              <h6 class="card__title">12k+</h6>
+              <p class="text">meals served</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__about-company">
+          <div class="logo">
+            <img src="./img/logo_black.svg" alt="Logo" class="logo__img">
+            <img src="./img/company_name_black.svg" alt="company name" class="logo__img">
+          </div>
+          <p class="text text--black text--box-size-small">This is a blurb about the company sed do eiusmod
+            tempor incididunt ut labore et dolore ex magna aliqua.
+          </p>
+          <div class="footer__social-media">
+            <img src="./img/facebook_icon.svg" alt="Facebook" class="social-media-icon">
+            <img src="./img/twitter_icon.svg" alt="Facebook" class="social-media-icon">
+            <img src="./img/inst_icon.svg" alt="Facebook" class="social-media-icon">
+            <img src="./img/youtube_icon.svg" alt="Facebook" class="social-media-icon">
+          </div>
+        </div>
+        <nav class="nav">
+          <h3 class="footer__title">Explore links</h3>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Services</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Specials</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Facilities</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Reviews</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Shop</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">About</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__contact-info">
+          <h3 class="footer__title">Contact</h3>
+          <p class="subtitle subtitle--footer-place">321 Pikes Place Parkway Seattle, WA 54321</p>
+          <p class="subtitle subtitle--footer-phone">(555) 765-4321</p>
+          <p class="subtitle subtitle--footer-mail">Info@company.com</p>
+          <p class="subtitle subtitle--footer-time">Mon - Sat:  7:000 am - 6:00 pm</p>
+        </div>
+      </div>
+    </footer>
   </main>
+  <script src="./script.js"></script>
 </body>
 </html>

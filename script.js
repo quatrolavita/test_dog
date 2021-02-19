@@ -1,0 +1,1 @@
+const burger = document.querySelector('.burger')const nav = document.querySelector('.nav');const burgerSpan = document.querySelector('.burger__item')burger.addEventListener('click', () => {    burger.classList.toggle('burger--active');    nav.classList.toggle('nav--burger');    burgerSpan.classList.toggle('burger__item--active');})

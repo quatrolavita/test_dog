@@ -1,0 +1,10 @@
+@import "scss/components/var";
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    &__img {
+        margin-right: 10px;
+    }
+}

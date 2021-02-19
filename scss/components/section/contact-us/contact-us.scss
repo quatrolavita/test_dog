@@ -1,0 +1,54 @@
+@import "scss/components/var";
+
+.contact-us {
+    background: url("../../../../img/background_form.png") no-repeat;
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 210px;
+
+    &__container {
+        @include container;
+        align-items: center;
+    }
+
+    &__text-box {
+        text-align: center;
+
+        .title {
+            margin-bottom: 46px;
+        }
+
+    }
+
+    @media (max-width: $screen-l) {
+        &__container {
+            flex-direction: column;
+        }
+
+        .contact-form {
+            margin-right: 0px;
+            margin-bottom: 40px;
+            padding: 45px 45px;
+            &__input-text {
+                width: 100%;
+            }
+
+            .title {
+                text-align: center;
+            }
+
+            .button {
+                margin: 0 auto;
+            }
+        }
+
+    }
+
+    @media (max-width: $screen-s) {
+        .contact-form {
+            padding: 25px 15px;
+        }
+    }
+
+
+}
